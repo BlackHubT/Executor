@@ -1,0 +1,12 @@
+local http_request = http_request;
+local cx = identifyexecutor()
+if fluxus then
+	getgenv().FrameMode = true
+  getgenv().UpdateMode = true
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/BlackHubT/LoadUI/main/README.md'), true))()
+end
+
+if http_request == nil then
+	return
+end
